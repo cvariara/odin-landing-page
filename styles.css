@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 100px; */
+  gap: 450px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.first {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.first-container {
+  padding-bottom: 100px;
+  width: 470px;
+}
+
+.first-container > button {
+  padding: 0;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-img {
+  width: 450px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.info {
+  max-width: 200px;
+  margin-bottom: 100px;
+}
+
+.info > img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 12px;
+}
+
+.text {
+  flex-wrap: wrap;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.quote-text {
+  margin-top: 200px;
+  margin-bottom: auto;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  color: #1F2937;
+}
+
+.author {
+  font-weight: 700;
+  text-align: right;
+  flex-basis: 200px;
+}
+
+.signup {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 5px;
+  margin: 80px 150px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  width: 1000px;
+}
+
+.signup-title > h3 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.signup-text {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-btn {
+  align-self: center;
+  padding: 5px 25px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.signup > button {
+  border: 1px solid #F9FAF8;
+} 
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
